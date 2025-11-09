@@ -1,75 +1,193 @@
 <!DOCTYPE html>
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 
+
+
 <head>
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
 <title>Alex's Mumble server</title>
+
 <link href="style.css" rel="stylesheet" type="text/css"/>
+
 <script type="text/javascript" src="scriptJava.js"></script>
+
 </head>
 
 <body>
+
 <div id="bg"><img src="bin/images/8.jpg" width="100%" height="100%" alt="background" /></div>
+
 <div id="principal">
 
     <header id="header"><img src="bin/images/games_header.jpg" alt="Header"/></header>
-    
+
     <nav id="izquierda">
+
             <div id="list">
-            	<ul>
-                	<li><h2>Servicios</h2></li>
-                	<li class="link"><a href="index.html">Home</a></li>
-                	<li class="link"><a href="mumble.html">Voz</a></li>
-                	<li class="dd">Chat
-						<ul class="hiddenL">
-							<li class="link"><a href="xmpp.html">XMPP</a></li>
-							<li class="link"><a href="matrix.html">Matrix</a></li>
-						</ul>
-					</li>
-					
+
+                <ul>
+
+                        <li><h2>Servicios</h2></li>
+
+                        <li class="link"><a href="index.html">Home</a></li>
+
+                        <li class="link"><a href="mumble.html">Voz</a></li>
+
+                        <li class="dd">Chat
+
+                                                <ul class="hiddenL">
+
+                                                        <li class="link"><a href="xmpp.html">XMPP</a></li>
+
+                                                        <li class="link"><a href="matrix.html">Matrix</a></li>
+
+                                                </ul>
+
+                                        </li>
+
                 </ul>
+
             </div>
+
     </nav>
-    
+
     <aside id="derecha">
-		<a href="https://www.amd.com">
-			<img src="bin/images/derecha_AMD_200.png" alt="AMD Ad"/>
-		</a>
-		<a href="https://www.nvidia.com">
-			<img src="bin/images/142c84ff0ebccca0215da29f301380ad_thumb.jpg" alt="Nvidia Ad"/>
-		</a>
+
+                <a href="https://www.amd.com">
+
+                        <img src="bin/images/derecha_AMD_200.png" alt="AMD Ad"/>
+
+                </a>
+
+                <a href="https://www.nvidia.com">
+
+                        <img src="bin/images/142c84ff0ebccca0215da29f301380ad_thumb.jpg" alt="Nvidia Ad"/>
+
+                </a>
+
     </aside>
-    
+
     <section id="centro">
+
         <article>
+
             <p>
-				Mumble es comunicacion por voz, como Discord. Tienes que bajarte el programa y conectarte al servidor mumble.finta.dev.
-				<br/>
-				<br/>
-				<a href="https://www.mumble.info/downloads/" target="_blank">Descarga Mumble</a>
-				<br/>
-				<br/>
-				Escribeme a alexandru@finta.dev
+
+                Mumble es comunicacion por voz, como Discord. Tienes que bajarte el programa y conectarte al servidor <strong>mumble.finta.dev</strong>.
+
+                <br/><br/>
+
+
+
+                <!-- ==== UNIFIED DOWNLOAD LINKS – WHITE TEXT ==== -->
+
+                <table style="width:100%; border-collapse:collapse; margin:20px 0; font-family:Arial,Helvetica,sans-serif;">
+
+                    <tr>
+
+                        <td style="padding:8px 0;">
+
+                            <a href="https://www.mumble.info/downloads/" target="_blank"
+
+                               style="color:#ffffff; text-decoration:underline; font-weight:bold; font-size:1.05em;">
+
+                                Descarga Mumble – Página Oficial
+
+                            </a>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td style="padding:8px 0;">
+
+                            <a href="https://github.com/mumble-voip/mumble/releases/" target="_blank"
+
+                               style="color:#ffffff; text-decoration:underline; font-weight:bold; font-size:1.05em;">
+
+                                GitHub Releases – v1.5.857 <small style="color:#aaa;">(21 Oct 2025)</small>
+
+                            </a>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td style="padding:8px 0;">
+
+                            <a href="https://play.google.com/store/apps/details?id=se.lublin.mumla" target="_blank"
+
+                               style="color:#ffffff; text-decoration:underline; font-weight:bold; font-size:1.05em;">
+
+                                Mumla – Cliente Android <small style="color:#aaa;">(4.0 stars – 100K+ descargas)</small>
+
+                            </a>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td style="padding:8px 0;">
+
+                            <a href="https://apps.apple.com/es/app/mumble/id443472808" target="_blank"
+
+                               style="color:#ffffff; text-decoration:underline; font-weight:bold; font-size:1.05em;">
+
+                                Mumble – Cliente iOS <small style="color:#aaa;">(App Store – última actualización 2017)</small>
+
+                            </a>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+
+
+                <br/>
+
+                Escribeme a <a href="mailto:alexandru@finta.dev" style="color:#ffffff;">alexandru@finta.dev</a>
+
             </p>
-		</article>
+
+        </article>
 
     </section>
-    
+
     <footer id="footer">Ave Satanas</footer>
-    
+
 </div>
 
 <div id="loginButton">
+
     <span><p>login</p></span>
+
 </div>
 
 <div id="login">
+
     <form>
+
         <label>username </label><input type="text" name="username"><br>
+
         <label>password </label><input type="password" name="password"><br>
+
         <input type="button" value="Login" id="loginSubmit">
+
     </form>
+
 </div>
 
 </body>
+
 </html>
